@@ -1,0 +1,3 @@
+[submodule "clipboard_image_auto_saver"]
+	path = clipboard_image_auto_saver
+	url = https://github.com/siriak/clipboard_image_auto_saver.git
