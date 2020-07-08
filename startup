@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Just to give some time for all subsystems to load
+sleep 10
+
+# Run load balancer for BOINC
+./boinc-load-balancer/boinc-load-balancer &
+
+# Pull latest changes for all repositories
+./update-repos &
+
+# Run apps at startup
+telegram-desktop &
+google-chrome &
+transmission-gtk --minimized &
+thunderbird &
+
+# Run screenshot tool
+python3 ./clipboard_image_auto_saver/clipboard_image_auto_saver.py &
+
