@@ -4,10 +4,10 @@
 sleep 10
 
 # Run load balancer for BOINC
-./boinc-load-balancer/boinc-load-balancer &
+/home/siriak/Repos/useful-scripts/boinc-load-balancer/boinc-load-balancer &
 
 # Pull latest changes for all repositories
-./update-repos &
+/home/siriak/Repos/useful-scripts/update-repos &
 
 # Run apps at startup
 telegram-desktop &
@@ -16,5 +16,5 @@ transmission-gtk --minimized &
 thunderbird &
 
 # Run screenshot tool
-python3 ./clipboard_image_auto_saver/clipboard_image_auto_saver.py &
+python3 /home/siriak/Repos/useful-scripts/clipboard_image_auto_saver/clipboard_image_auto_saver.py &
 
