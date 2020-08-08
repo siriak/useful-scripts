@@ -1,3 +1,6 @@
 [submodule "boinc-load-balancer"]
 	path = boinc-load-balancer
 	url = https://github.com/siriak/boinc-load-balancer.git
+[submodule "clipboard-image-saver"]
+	path = clipboard-image-saver
+	url = https://github.com/siriak/clipboard-image-saver

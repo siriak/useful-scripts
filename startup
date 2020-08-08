@@ -16,5 +16,5 @@ transmission-gtk --minimized &
 thunderbird &
 
 # Run screenshot tool
-python3 /home/siriak/Repos/useful-scripts/clipboard_image_auto_saver/clipboard_image_auto_saver.py &
+python3 /home/siriak/Repos/useful-scripts/clipboard-image-saver/clipboard-image-saver.py &
 
