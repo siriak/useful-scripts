@@ -4,3 +4,6 @@
 [submodule "clipboard-image-saver"]
 	path = clipboard-image-saver
 	url = https://github.com/siriak/clipboard-image-saver
+[submodule "temperature-frequency-balancer"]
+	path = temperature-frequency-balancer
+	url = https://github.com/siriak/temperature-frequency-balancer
