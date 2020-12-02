@@ -14,6 +14,7 @@ telegram-desktop &
 google-chrome &
 transmission-gtk --minimized &
 thunderbird &
+gnome-pomodoro &
 
 # Run screenshot tool
 python3 /home/siriak/Repos/useful-scripts/clipboard-image-saver/clipboard-image-saver.py &
