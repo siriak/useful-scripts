@@ -1,6 +1,0 @@
-#!/bin/bash
-
-teams &
-zoom &
-skype &
-
