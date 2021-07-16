@@ -7,3 +7,6 @@
 [submodule "temperature-frequency-balancer"]
 	path = temperature-frequency-balancer
 	url = https://github.com/siriak/temperature-frequency-balancer
+[submodule "timesnapper-for-linux"]
+	path = timesnapper-for-linux
+	url = https://github.com/siriak/timesnapper-for-linux.git
