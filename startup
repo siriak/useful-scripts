@@ -4,23 +4,23 @@
 sleep 10
 
 # Run load balancer for BOINC
-/home/siriak/Repos/useful-scripts/boinc-load-balancer/boinc-load-balancer &
+/home/siriak/repos/useful-scripts/boinc-load-balancer/boinc-load-balancer &
 
 # Pull latest changes for all repositories
-/home/siriak/Repos/useful-scripts/update-repos &
+/home/siriak/repos/useful-scripts/update-repos &
 
 # Run apps at startup
 telegram-desktop &
 google-chrome &
 transmission-gtk --minimized &
 thunderbird &
-gnome-pomodoro &
 teams &
 zoom &
 skype &
 slack &
-gitter &
+discord &
 
-# Run screenshot tool
-python3 /home/siriak/Repos/useful-scripts/clipboard-image-saver/clipboard-image-saver.py &
+# Run screenshot tools
+python3 /home/siriak/repos/useful-scripts/clipboard-image-saver/clipboard-image-saver.py &
+/home/siriak/repos/useful-scripts/timesnapper-for-linux/timesnapper &
 
